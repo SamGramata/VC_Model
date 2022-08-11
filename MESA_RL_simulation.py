@@ -27,7 +27,7 @@ np.random.seed(0)
 
 ##VC Coefficients
 #VC Coefficients - General
-Number_of_VCs = 10 #approximate number of VCs in USA. In fact, it is 1000, but for computaional reasons we devide everything by 10
+Number_of_VCs = 100 #approximate number of VCs in USA. In fact, it is 1000, but for computaional reasons we devide everything by 10
 Fund_maturity = 40 #the number of time steps until the outcome of the fund is realised, 1 step=3months
 VC_quality_alpha = 2.06 #alpha coefficient for power law distribution
 VC_quality_x_min = 0 #x_min coefficient for power law distribution
